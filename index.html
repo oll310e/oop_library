@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/a496b1bf3a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <i class="fa-solid fa-book-tanakh"></i>
+        <h1 class="title">Library</h1>
+      </header>
+      <form class="book-form">
+        <label for="title">Title</label>
+        <input id="title" />
+        <label for="author">Author</label>
+        <input id="author" />
+        <label for="isbn">ISBN#</label>
+        <input id="isbn" />
+        <input type="submit" value="Add Book" id="form-submit" />
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>ISBN#</td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody class="bookshelf"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
